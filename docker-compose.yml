@@ -52,7 +52,7 @@ services:
       - KEY=3579757c-be70-4eb3-8bc0-2d089e1acde5
       - SECRET=4edf7e4a-274c-4b66-971b-83e0848710e7
       - ADMIN_EMAIL=admin@example.com
-      - ADMIN_PASSOWRD=t1nkrDirectus
+      - ADMIN_PASSWORD=t1nkrDirectus
       - DB_CLIENT=mysql
       - DB_HOST=mariadb
       - DB_DATABASE=directus
