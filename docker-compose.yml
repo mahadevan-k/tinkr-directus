@@ -11,7 +11,7 @@ services:
     restart: always
     x-tinkr:
       load_balancer:
-        tenancy: shared
+        tenancy: dedicated
         type: network
         network: private
     environment:
@@ -36,7 +36,7 @@ services:
       environment: 
         - DB_HOST=<hostname:mariadb>
       load_balancer:
-        tenancy: dedicated
+        tenancy: shared
         type: webserver
         healthcheck:
           timeout: 10
